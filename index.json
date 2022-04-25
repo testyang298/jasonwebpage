@@ -1,0 +1,46 @@
+{
+  "eula": "",
+  "vendor": "SAP",
+  "license": "",
+  "id": "com.sap.jasonwebpage",
+  "version": "0.2.0",
+  "name": "JasonWebPage Widget",
+  "newInstancePrefix": "JasonWebPage",
+  "description": "A custom JasonWebPage widget",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sap-jasonwebpage",
+      "url": "http://localhost:3000/jasonwebpage/main.js",
+      "integrity": "sha256-rRnis3yP3HUxQzcNPjx3w9p6Ha5X8BsyxuTDxI7OdVE=",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+    "src" : {
+      "type": "string",
+      "description": "iframe.src",
+      "default": ""
+    }
+  },
+  "methods": {
+    "setSrc": {
+      "description": "Set src",
+      "parameters": [
+        {
+          "name": "src",
+          "type": "string"
+        }
+      ]
+    },
+    "dispose": {
+      "description": "dispose",
+      "parameters": [
+      ]
+    }
+  },
+  "events": {
+
+  },
+  "supportsMobile": true
+}
